@@ -22,7 +22,13 @@
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+	.showcase::before {
+		box-shadow: inset 0 0 50px #000;
+	}
 
+	.showcase-navigation {
+		visibility: hidden;
+	}
 }
 
 /* xs <= Small (sm) */
